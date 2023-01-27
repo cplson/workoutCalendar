@@ -4,9 +4,9 @@
     --success: #329F5B;
     --Failure: #A62639;
     --txt: #14110F;
-    --future: #223843;
-    --bgDays: #5C92AD;
-    --temp: #545E75;
+    --future: #E8D2AE;
+    --bgDays: #9CADCE;
+    --temp: #223843;
 }
 *{
     margin: 0;
@@ -36,9 +36,9 @@ header{
 
 body{
     background-color: var(--bgColor2);
-    color: var(--bgColor1);
+    color: var(--txt);
     height: 100%;
-  position: relative;
+    position: relative;
 }
 
 /* Table style */
@@ -47,11 +47,10 @@ body{
     justify-content: center;
     width: 80%;
     margin: auto;
-    border: 3px var(--future) solid;
 }
 
   th, td{
-    width: 70px;
+    width: 90px;
     height: 70px;
     border:1px solid black; 
     
@@ -59,8 +58,7 @@ body{
 
 table{
     width: 100%;
-    margin-top: 40px;
-    padding: auto;
+    margin-top: 40px;   
     background-color: #141415;
 }
 
